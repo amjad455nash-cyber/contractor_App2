@@ -27,3 +27,18 @@ end: Alignment.bottomRight,
 ),
 ),
 );
+child: Center(
+child: Card(
+elevation: 5,
+shape: RoundedRectangleBorder(
+borderRadius: BorderRadius.circular(15),
+),
+child: Padding(
+padding: const EdgeInsets.all(20),
+child: Column(
+mainAxisSize: MainAxisSize.min,
+children: [],
+),
+),
+),
+),

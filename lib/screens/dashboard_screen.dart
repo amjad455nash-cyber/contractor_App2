@@ -7,3 +7,7 @@ class DashboardScreen extends StatelessWidget {
     return Container(); // مؤقت
   }
 }
+return Scaffold(
+appBar: AppBar(title: const Text("لوحة التحكم")),
+body: Container(), // مؤقت
+);

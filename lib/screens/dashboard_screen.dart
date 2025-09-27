@@ -24,3 +24,9 @@ end: Alignment.bottomCenter,
 child: ListView(
 children: [],
 ),
+ListTile(
+leading: const Icon(Icons.manage_accounts, color: Colors.blue),
+title: const Text("المدير العام"),
+onTap: () => Navigator.pushNamed(context, '/generalManager'),
+),
+const Divider(),

@@ -64,4 +64,12 @@ border: OutlineInputBorder(),
 ),
 ),
 const SizedBox(height: 20),
+ElevatedButton(
+onPressed: () {
+ScaffoldMessenger.of(context).showSnackBar(
+const SnackBar(content: Text("تمت إضافة المحاسب والعمال ✅")),
+);
+},
+child: const Text("إضافة"),
+),
 

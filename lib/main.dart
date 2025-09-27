@@ -8,3 +8,11 @@ import 'screens/developers_screen.dart';
 void main() {
   runApp(const ContractorApp());
 }
+class ContractorApp extends StatelessWidget {
+  const ContractorApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(); // مؤقتاً فارغ
+  }
+}

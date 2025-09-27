@@ -22,3 +22,11 @@ child: ListView(
 children: [],
 ),
 ),
+TextField(
+controller: accountantController,
+decoration: const InputDecoration(
+labelText: "اسم المحاسب",
+border: OutlineInputBorder(),
+),
+),
+const SizedBox(height: 10),

@@ -7,3 +7,7 @@ class DevelopersScreen extends StatelessWidget {
     return Container(); // مؤقت
   }
 }
+return Scaffold(
+appBar: AppBar(title: const Text("المطورين")),
+body: Container(), // مؤقت
+);

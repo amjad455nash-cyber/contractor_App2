@@ -16,3 +16,18 @@ class ContractorApp extends StatelessWidget {
     return Container(); // مؤقتاً فارغ
   }
 }
+class ContractorApp extends StatelessWidget {
+  const ContractorApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'مشروع المقاولات',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blueGrey,
+        brightness: Brightness.light,
+      ),
+    );
+  }
+}

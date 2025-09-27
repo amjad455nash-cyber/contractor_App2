@@ -11,3 +11,10 @@ return Scaffold(
 appBar: AppBar(title: const Text("المطورين")),
 body: Container(), // مؤقت
 );
+body: Padding(
+padding: const EdgeInsets.all(16),
+child: Column(
+crossAxisAlignment: CrossAxisAlignment.start,
+children: [],
+),
+),

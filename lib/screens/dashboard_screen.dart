@@ -36,3 +36,8 @@ title: const Text("المحاسبين"),
 onTap: () => Navigator.pushNamed(context, '/accountants'),
 ),
 const Divider(),
+ListTile(
+leading: const Icon(Icons.developer_mode, color: Colors.purple),
+title: const Text("المطورين"),
+onTap: () => Navigator.pushNamed(context, '/developers'),
+),

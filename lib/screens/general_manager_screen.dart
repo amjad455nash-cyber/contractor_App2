@@ -12,3 +12,7 @@ final TextEditingController workerNameController = TextEditingController();
 final TextEditingController workerPhoneController = TextEditingController();
 final TextEditingController workerIdController = TextEditingController();
 final TextEditingController workPlaceController = TextEditingController();
+return Scaffold(
+appBar: AppBar(title: const Text("واجهة المدير العام")),
+body: Container(), // مؤقت
+);

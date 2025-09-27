@@ -56,3 +56,12 @@ border: OutlineInputBorder(),
 ),
 ),
 const SizedBox(height: 10),
+TextField(
+controller: workPlaceController,
+decoration: const InputDecoration(
+labelText: "مكان العمل",
+border: OutlineInputBorder(),
+),
+),
+const SizedBox(height: 20),
+

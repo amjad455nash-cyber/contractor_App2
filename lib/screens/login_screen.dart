@@ -42,3 +42,32 @@ children: [],
 ),
 ),
 ),
+children: [
+const Text("تسجيل الدخول",
+style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+const SizedBox(height: 20),
+TextField(
+controller: userController,
+decoration: const InputDecoration(
+labelText: "اسم المستخدم",
+border: OutlineInputBorder(),
+),
+),
+const SizedBox(height: 10),
+TextField(
+controller: emailController,
+decoration: const InputDecoration(
+labelText: "البريد الإلكتروني",
+border: OutlineInputBorder(),
+),
+),
+const SizedBox(height: 10),
+TextField(
+controller: passController,
+obscureText: true,
+decoration: const InputDecoration(
+labelText: "كلمة المرور",
+border: OutlineInputBorder(),
+),
+),
+],

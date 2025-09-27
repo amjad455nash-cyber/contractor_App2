@@ -16,3 +16,9 @@ return Scaffold(
 appBar: AppBar(title: const Text("واجهة المدير العام")),
 body: Container(), // مؤقت
 );
+body: Padding(
+padding: const EdgeInsets.all(16),
+child: ListView(
+children: [],
+),
+),

@@ -28,21 +28,6 @@ class ContractorApp extends StatelessWidget {
         primarySwatch: Colors.blueGrey,
         brightness: Brightness.light,
       ),
-    );
-  }
-}
-class ContractorApp extends StatelessWidget {
-  const ContractorApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'مشروع المقاولات',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
-        brightness: Brightness.light,
-      ),
       initialRoute: '/',
       routes: {
         '/': (context) => const LoginScreen(),

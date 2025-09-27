@@ -30,3 +30,29 @@ border: OutlineInputBorder(),
 ),
 ),
 const SizedBox(height: 10),
+TextField(
+controller: workerNameController,
+decoration: const InputDecoration(
+labelText: "اسم العامل",
+border: OutlineInputBorder(),
+),
+),
+const SizedBox(height: 10),
+
+TextField(
+controller: workerPhoneController,
+decoration: const InputDecoration(
+labelText: "رقم هاتف العامل",
+border: OutlineInputBorder(),
+),
+),
+const SizedBox(height: 10),
+
+TextField(
+controller: workerIdController,
+decoration: const InputDecoration(
+labelText: "رقم البطاقة الشخصية",
+border: OutlineInputBorder(),
+),
+),
+const SizedBox(height: 10),

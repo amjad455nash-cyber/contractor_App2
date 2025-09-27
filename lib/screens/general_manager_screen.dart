@@ -7,3 +7,8 @@ class GeneralManagerScreen extends StatelessWidget {
     return Container(); // مؤقت
   }
 }
+final TextEditingController accountantController = TextEditingController();
+final TextEditingController workerNameController = TextEditingController();
+final TextEditingController workerPhoneController = TextEditingController();
+final TextEditingController workerIdController = TextEditingController();
+final TextEditingController workPlaceController = TextEditingController();

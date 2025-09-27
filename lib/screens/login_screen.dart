@@ -7,3 +7,11 @@ class LoginScreen extends StatelessWidget {
     return Container(); // مؤقت
   }
 }
+@override
+Widget build(BuildContext context) {
+  final TextEditingController userController = TextEditingController();
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passController = TextEditingController();
+
+  return Container(); // مؤقت
+}

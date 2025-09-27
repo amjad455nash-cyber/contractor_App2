@@ -71,3 +71,10 @@ border: OutlineInputBorder(),
 ),
 ),
 ],
+const SizedBox(height: 20),
+ElevatedButton(
+onPressed: () {
+Navigator.pushReplacementNamed(context, '/dashboard');
+},
+child: const Text("دخول"),
+),
